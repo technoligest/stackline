@@ -1,8 +1,0 @@
-.control-pane {
-  min-width: 200px;
-  width: 20vw;
-  height: 100%;
-  background-color: white; }
-  .control-pane > div {
-    border-bottom: solid 1px #e5e8ef;
-    margin-bottom: 10px; }
