@@ -1,0 +1,25 @@
+@import '../../../styles/colors.scss';
+
+.control-pane-header {
+  .product-image-container {
+    display: flex;
+    .product-image {
+      margin: 10px auto;
+    }
+  }
+  .product-title-container {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding-bottom: 15px;
+    .product-title {
+      color: $titleColor;
+      font-size: 20px;
+    }
+    .product-subtitle {
+      color: $subTitleColor;
+      font-size: 13px;
+    }
+  }
+}

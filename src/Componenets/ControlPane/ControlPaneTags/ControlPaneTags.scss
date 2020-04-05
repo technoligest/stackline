@@ -1,0 +1,18 @@
+@import '../../../styles/colors.scss';
+
+.control-pane-tags {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  .tag {
+    color: #6e7581;
+    padding: 8px;
+    border: 1px solid #e5e8ef;
+    border-radius: 5px;
+    $fontSize: 12px;
+    font-size: $fontSize;
+    line-height: $fontSize;
+    margin: 0 5px 10px 0;
+    cursor: default;
+  }
+}

@@ -1,0 +1,18 @@
+.control-pane-nav {
+  .nav-item-container {
+    display: flex;
+    width: 100%;
+    cursor: pointer;
+    padding: 10px;
+    &:hover {
+      background-color: #e2f8ff;
+    }
+    .nav-item-icon {
+      width: 20px;
+      margin-right: 10px;
+    }
+    .nav-item-name {
+      width: 100%;
+    }
+  }
+}

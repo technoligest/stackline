@@ -1,0 +1,10 @@
+.header-container {
+  font-family: system-ui;
+  height: 8vh;
+  background-color: white;
+  color: white;
+  display: flex; }
+  .header-container .header-logo {
+    padding-left: 20px; }
+    .header-container .header-logo .user-image {
+      margin: calc((8vh - 36px) / 2); }

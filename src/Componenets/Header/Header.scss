@@ -1,0 +1,15 @@
+@import '../../styles/colors.scss';
+
+.header-container {
+  font-family: system-ui;
+  height: 8vh;
+  background-color: $white;
+  color: white;
+  display: flex;
+  .header-logo {
+    padding-left: 20px;
+    .user-image {
+      margin: calc((8vh - 36px) / 2);
+    }
+  }
+}

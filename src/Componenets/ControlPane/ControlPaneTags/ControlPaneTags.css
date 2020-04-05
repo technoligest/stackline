@@ -1,0 +1,13 @@
+.control-pane-tags {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap; }
+  .control-pane-tags .tag {
+    color: #6e7581;
+    padding: 8px;
+    border: 1px solid #e5e8ef;
+    border-radius: 5px;
+    font-size: 12px;
+    line-height: 12px;
+    margin: 0 5px 10px 0;
+    cursor: default; }

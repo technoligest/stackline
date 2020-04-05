@@ -1,0 +1,17 @@
+.control-pane-header .product-image-container {
+  display: flex; }
+  .control-pane-header .product-image-container .product-image {
+    margin: 10px auto; }
+
+.control-pane-header .product-title-container {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  padding-bottom: 15px; }
+  .control-pane-header .product-title-container .product-title {
+    color: black;
+    font-size: 20px; }
+  .control-pane-header .product-title-container .product-subtitle {
+    color: grey;
+    font-size: 13px; }
